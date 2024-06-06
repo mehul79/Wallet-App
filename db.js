@@ -1,7 +1,7 @@
 // backend/db.js
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/paytm")
+mongoose.connect("mongodb://admin:Hello1@myfirstdb-shard-00-00.qao5w.mongodb.net:27017/?replicaSet=atlas-ukgzdh-shard-0&ssl=true&authSource=admin/paytm")
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
