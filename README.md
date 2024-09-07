@@ -1,9 +1,9 @@
 # Wallet-App
 This is a repo which contains the backend code for the paytm type wallet app
-<li>Authentication</li>
-<li>The Database is done using a mongoDB instance </li>
-<li>JWT token autherization headers used </li>
-<li>JWT token autherization headers used </li>
+<li>Authentication through Zod</li>
+<li>Database as MongoDb</li>
+<li>JWT token autherization headers used</li>
+<li>MongoDb session used in transactions</li>
 <br>
 
 * Clone Repo
