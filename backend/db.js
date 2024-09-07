@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-const url = "mongodb://mega1:fg@ac-an8nybv-shard-00-00.hky8tct.mongodb.net:27017/?ssl=true&replicaSet=atlas-d1d4lu-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
+const url = "add your mongo db url"
 
 mongoose.connect(url)
     .then(()=>{
