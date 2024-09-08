@@ -1,5 +1,5 @@
 # Wallet-App
-This is a repo which contains the backend code for the paytm type wallet app
+This is a repo which contains the entire codebase for the wallet app with transactions 
 <li>Authentication through Zod</li>
 <li>Database as MongoDb</li>
 <li>JWT token autherization headers used</li>
