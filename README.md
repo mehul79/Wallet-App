@@ -2,7 +2,7 @@
 This is a repo which contains the entire codebase for the wallet app with transactions 
 <li>Authentication through Zod</li>
 <li>Database as MongoDb</li>
-<li>JWT token autherization headers used</li>
+<li>JWT token authorization headers used</li>
 <li>MongoDb session used in transactions</li>
 <br>
 
