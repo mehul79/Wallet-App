@@ -1,15 +1,14 @@
 const mongoose = require("mongoose");
+const dotenv = require("dotenv")
+dotenv.config()
 
-
-const url = "add your mongo db url"
-
+const url = process.env.MONGO_URI
 mongoose.connect(url)
     .then(()=>{
         console.log(`Successfully connect to db`);
     }).catch((err)=>{
         console.log(err);
     })
-
 
 const userSchema = new mongoose.Schema({
         username: String,

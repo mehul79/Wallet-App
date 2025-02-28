@@ -10,6 +10,13 @@ This is a repo which contains the entire codebase for the wallet app with transa
 ```
 git clone https://github.com/mehul79/Wallet-App
 ```
+#### Environment Variables
+
+Create a `.env` file in the backend folder and add necessary environment variables:
+   ```sh
+   # MONGO DB URL
+   NEXT_PUBLIC_ML_SERVICE_URL= MONGO URL
+   ```
 * Install dependencies for Backend
 ```
 cd backend
